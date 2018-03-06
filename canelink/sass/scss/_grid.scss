@@ -1,7 +1,7 @@
-.wrapper *{
-  // background: ivory;
- padding: 10px;
 
+
+.logo {
+  max-width: 100%;
 }
 
 .main-head {
@@ -18,6 +18,10 @@
 }
 .side {
   grid-area: sidebar;
+}
+
+.side p {
+  margin: 0;
 }
 .ad {
   grid-area: ad;
@@ -37,7 +41,7 @@
 
 .wrapper {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 0px;
   grid-template-areas:
     "header"
     "content"

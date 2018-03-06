@@ -1,5 +1,5 @@
-.wrapper * {
-  padding: 10px; }
+.logo {
+  max-width: 100%; }
 
 .main-head {
   background: #54AB88; }
@@ -16,6 +16,9 @@
 .side {
   grid-area: sidebar; }
 
+.side p {
+  margin: 0; }
+
 .ad {
   grid-area: ad; }
 
@@ -31,7 +34,7 @@
 
 .wrapper {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 0px;
   grid-template-areas: "header" "content"; }
 
 /* tablet layout */
