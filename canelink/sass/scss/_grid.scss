@@ -1,8 +1,11 @@
 .wrapper * {
-  background: orange;
+  background: ivory;
   padding: 10px;
 }
 
+.main-head {
+  background: green;
+}
 .main-head {
   grid-area: header;
 }
