@@ -2,7 +2,7 @@
   padding: 10px; }
 
 .main-head {
-  background: green; }
+  background: #54AB88; }
 
 .main-head {
   grid-area: header; }
@@ -70,12 +70,18 @@
   transition: opacity .2s; }
 
 .main-nav {
-  border: 1px solid grey; }
+  border: 1px solid #95A1AA;
+  background-color: #95A1AA;
+  color: white;
+  text-decoration-color: white; }
 
 .side {
-  border: 1px solid grey; }
+  border: 1px solid #95A1AA; }
 
 .content {
-  border: 1px solid grey; }
+  border: 1px solid #95A1AA; }
+
+.public {
+  background-color: #F27321; }
 
 /*# sourceMappingURL=master.css.map */
