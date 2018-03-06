@@ -1,6 +1,6 @@
-.wrapper * {
-  background: ivory;
-  padding: 10px;
+.wrapper *{
+  // background: ivory;
+ padding: 10px;
 }
 
 .main-head {
@@ -30,6 +30,9 @@
 .main-nav{
   display: none;
 }
+.side{
+  display:none;
+}
 
 .wrapper {
   display: grid;
@@ -37,7 +40,6 @@
   grid-template-areas:
     "header"
     "content"
-    "sidebar";
 }
 
 
@@ -47,15 +49,13 @@
   .main-nav{
     display:block;
   }
-   .side{
-     display:none;
-   }
+
 
 
   .wrapper {
     grid-template-columns: 6fr 6fr;
     grid-template-areas:
-      "header  header"
+      "nav  header"
       "nav content"
 
   }
@@ -71,7 +71,7 @@
 /* Desktop layout */
 
 
-@media (min-width: 700px) {
+@media (min-width: 768px) {
   .side{
     display:block;
   }
@@ -79,7 +79,7 @@
   .wrapper {
     grid-template-columns:3fr 5fr 5fr ;
     grid-template-areas:
-      "header header  header "
+      "nav header  header "
       "nav    content  sidebar"
 
    }
