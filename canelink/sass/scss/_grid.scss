@@ -5,18 +5,24 @@
 }
 
 .main-head {
+grid-area: header;
+   padding: 10px;
   background: #54AB88;
+  justify-content: center;
+  display:flex;
 }
-.main-head {
-  grid-area: header;
-}
+
 .content {
+   padding: 10px;
   grid-area: content;
 }
 .main-nav {
+   padding: 10px;
   grid-area: nav;
+
 }
 .side {
+   padding: 10px;
   grid-area: sidebar;
 }
 
@@ -41,6 +47,7 @@
 
 .wrapper {
   display: grid;
+  padding: 10px;
   grid-gap: 0px;
   grid-template-areas:
     "header"
