@@ -15,6 +15,7 @@ grid-area: header;
    padding: 10px;
   grid-area: content;
 }
+
 .main-nav {
   font-size: 16px;
   line-height: 30px;
@@ -30,19 +31,14 @@ grid-area: header;
 .side p {
   margin: 0;
 }
-.ad {
-  grid-area: ad;
-}
-.main-footer {
-  grid-area: footer;
-}
+
 
 /* Mobile Layout */
 
 .main-nav{
   display: none;
 }
-.side{
+.content{
   display:none;
 }
 
@@ -64,12 +60,11 @@ grid-area: header;
   }
 
 
-
   .wrapper {
     grid-template-columns: 4fr 6fr;
     grid-template-areas:
       "nav  header"
-      "nav siderbar"
+      "nav sidebar"
 
   }
   // nav ul {
@@ -85,14 +80,14 @@ grid-area: header;
 
 
 @media (min-width: 768px) {
-  .side{
+  .content{
     display:block;
   }
 
   .wrapper {
     grid-template-columns:3fr 5fr 5fr ;
     grid-template-areas:
-      "nav  content  sidebar" 
+      "nav  header  header"
       "nav    content  sidebar"
 
    }
