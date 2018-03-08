@@ -58,7 +58,7 @@ grid-area: header;
 
 .wrapper2 {
 
-  .sidebar{
+  .side{
     display:block;
   }
   display: grid;
@@ -97,7 +97,6 @@ grid-area: header;
   grid-template-areas:
     "nav  header"
     "nav content"
-
 }
 
  .wrapper2 {

@@ -46,7 +46,7 @@
   padding: 10px;
   grid-gap: 0px;
   grid-template-areas: "header" "sidebar"; }
-  .wrapper2 .sidebar {
+  .wrapper2 .side {
     display: block; }
 
 .wrapper3 {
