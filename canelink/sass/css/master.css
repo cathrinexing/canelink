@@ -1,20 +1,21 @@
-.logo {
-  max-width: 100%; }
-
 .main-head {
   grid-area: header;
   padding: 10px;
   background: #54AB88;
   justify-content: center;
-  display: flex; }
+  display: flex;
+  font-size: 25px;
+  align-items: center; }
 
 .content {
   padding: 10px;
   grid-area: content; }
 
 .main-nav {
-  padding: 10px;
-  grid-area: nav; }
+  font-size: 16px;
+  line-height: 30px;
+  grid-area: nav;
+  padding: 10px; }
 
 .side {
   padding: 10px;
@@ -48,7 +49,7 @@
     display: block; }
 
   .wrapper {
-    grid-template-columns: 6fr 6fr;
+    grid-template-columns: 4fr 6fr;
     grid-template-areas: "nav  header" "nav content"; }
 
   nav ul {
@@ -65,8 +66,7 @@
   nav ul {
     flex-direction: column; } }
 .public {
-  background-color: #F27321;
-  border-bottom: 10px solid #95A1AA; }
+  border-bottom: 1px solid black; }
 
 .line {
   border-bottom: 1px solid #95A1AA; }
@@ -84,5 +84,20 @@
 
 .content {
   border: 1px solid #95A1AA; }
+
+.logo {
+  margin: 0; }
+
+.logo1 {
+  max-width: 100%; }
+
+.public {
+  border-bottom: 1px solid black; }
+
+.line {
+  border-bottom: 1px solid #95A1AA; }
+
+.line1 {
+  border-bottom: 1px solid #95A1AA; }
 
 /*# sourceMappingURL=master.css.map */
