@@ -41,7 +41,7 @@
   display: grid;
   padding: 10px;
   grid-gap: 0px;
-  grid-template-areas: "header" "content"; }
+  grid-template-areas: "header" "sidebar"; }
 
 /* tablet layout */
 @media (min-width: 500px) {
@@ -50,7 +50,7 @@
 
   .wrapper {
     grid-template-columns: 4fr 6fr;
-    grid-template-areas: "nav  header" "nav content"; }
+    grid-template-areas: "nav  header" "nav siderbar"; }
 
   nav ul {
     flex-direction: column; } }
@@ -61,7 +61,7 @@
 
   .wrapper {
     grid-template-columns: 3fr 5fr 5fr;
-    grid-template-areas: "nav header  header " "nav    content  sidebar"; }
+    grid-template-areas: "nav  content  sidebar" "nav    content  sidebar"; }
 
   nav ul {
     flex-direction: column; } }
