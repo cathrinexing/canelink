@@ -102,18 +102,6 @@
 
   nav ul {
     flex-direction: column; } }
-.public {
-  border-bottom: 1px solid black; }
-
-.line {
-  border-bottom: 1px solid #95A1AA; }
-
-.line1 {
-  border-bottom: 1px solid #95A1AA; }
-
-.pad {
-  padding-left: 30px; }
-
 .main-nav {
   border: 1px solid #95A1AA;
   background-color: #95A1AA;
@@ -132,7 +120,9 @@
   display: flex; }
 
 .days {
-  font-size: 10px; }
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between; }
 
 .logo {
   margin: 0; }
@@ -149,10 +139,8 @@
 .line1 {
   border-bottom: 1px solid #95A1AA; }
 
-.line2 {
-  display: inline-block;
-  justify-content: space-between;
-  border-bottom: 1px solid #95A1AA; }
+.pad {
+  padding-left: 50px; }
 
 .pop {
   padding: 10px; }
