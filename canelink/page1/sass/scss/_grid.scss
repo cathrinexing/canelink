@@ -92,7 +92,7 @@ grid-area: header;
   .wrapper {
     grid-template-columns:3fr 5fr 5fr ;
     grid-template-areas:
-      "nav      content  sidebar" 
+      "nav      header header"
       "nav    content  sidebar"
 
    }

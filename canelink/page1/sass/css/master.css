@@ -61,7 +61,7 @@
 
   .wrapper {
     grid-template-columns: 3fr 5fr 5fr;
-    grid-template-areas: "nav header  header " "nav    content  sidebar"; }
+    grid-template-areas: "nav      header header" "nav    content  sidebar"; }
 
   nav ul {
     flex-direction: column; } }

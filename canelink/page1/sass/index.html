@@ -11,103 +11,126 @@
 
 <body>
   <div class="wrapper">
-    <header class="main-head">
-
-      <b>Class Search</b></header>
+    <header class="main-head"><b>Class Search</b></header>
 
     <nav class="main-nav">
-      <figure>
-         <img class="logo" src="img/logo.png" alt="logo">
+      <figure class="logo">
+        <img class="logo1" src="img/logo.png" alt="logo">
       </figure>
-      <ul>
-        <div>PUBLICLINKS</div>
-        <li><a href="#">CaneLink(Full Site)</a></li>
-        <li><a href="#">Class search</a></li>
-        <li><a href="#">Course Catalog</a></li>
-        <li><a href="#">Find Cognates</a></li>
-        <li><a href="#">Browse Classes</a></li>
-        <li><a href="#">About CaneLink Mobile</a></li>
-        <li><a href="#">Blackboard</a></li>
-        <li><a href="#">Alert</a></li>
-        <li><a href="#">New</a></li>
-        <li><a href="#">Calendar</a></li>
-        <li><a href="#">Athletics</a></li>
-      </ul>
+      <div>
+        <p class="public">PUBLICLINKS</p>
+        <p class="public">CaneLink(Full Site)</p>
+        <p class="public">Class search</p>
+        <p class="public">Course Catalog</p>
+        <p class="public">Find Cognates</p>
+        <p class="public">Course Catalog</p>
+        <p class="public">Browse Classes</p>
+        <p class="public">About CaneLink Mobile</p>
+        <p class="public">Blackboard</p>
+        <p class="public">Alert</p>
+        <p class="public">New</p>
+        <p class="public">Calendar</p>
+        <p class="public">Calendar</p>
+      </div>
     </nav>
 
     <article class="content">
       <section class="course options">
-        <p><b>Course Options</b></p>
+        <h1><b>Course Options</b></h1>
+        <div class="content1">
+          <p>*Term</p>
+          <select>
+            <option value="Spring 2018">Spring 2018</option>
+            <option value="Summer 2018">Summer 2018</option>
+            <option value="Fall 2019">Fall 2019</option>
+            </select>
+        </div>
 
-        <p>*Term</p>
-        <select>
-  <option value="Spring 2018">Spring 2018</option>
-  <option value="Summer 2018">Summer 2018</option>
-  <option value="Fall 2019">Fall 2019</option>
+        <div class="content1">
+          <p>Key words</p>
+          <input type="text" name="key words" value="Front-end">
+        </div>
 
-</select>
-        <p>Key words</p>
-        <input type="text" name="key words" value="">
-        <p>*Subject</p>
-        <select>
-<option value="Select or Type">Select or Type</option>
 
-</select>
+        <div class="">
+          <p>*Subject</p>
+          <select>
+          <option value="Select or Type">Select or Type</option>
+          <option value="Select or Type">Interactive media design</option>
+          <option value="Select or Type">Advertising</option>
+          <option value="Select or Type">Select or Type</option>
+          </select>
+        </div>
 
-<p>Course#    Instructor</p>
-  <input type="text" name="couse" value="">
-<input type="text" name="Instructor" value=""><br>
- <input type="radio" name="class" value="open classes" checked> Open classes
-<button type="button">Search</button>
-<button type="button">Reset</button>
+        <div class="content1">
+          <p>Course#</p>
+          <input type="text" name="couse" value="">
+        </div>
+
+        <div class="content1">
+          <p>Instructor</p>
+          <input type="text" name="Instructor" value="">
+        </div>
+
+
+        <div class="">
+          <input type="radio" name="class" value="open classes" checked> Open classes
+        </div>
+        <div class="content2">
+          <button type="button">Search</button>
+          <button type="button">Reset</button>
+        </div>
+
 
       </section>
 
 
       <section class="time options">
-<span>Time Ranges</span>
-  <input type="checkbox" name="1" value="1"> 1
-  <input type="checkbox" name="2" value="2" checked> 2
-  <input type="checkbox" name="3" value="3">3 <br>
-
-
-    <input type="range" min="8:00" max="21:00" value="" class="slider" id="myRange">
-<p>8:00am  21:00pm</p>
-<form class="days" action="index.html" method="post">
-  <input type="checkbox" name="1" value="1"> MON
-  <input type="checkbox" name="2" value="2"> Tue
-  <input type="checkbox" name="3" value="3"> WED
-  <input type="checkbox" name="1" value="1"> THU
-  <input type="checkbox" name="2" value="2"> FRI
-  <input type="checkbox" name="3" value="3"> SAT
-  <input type="checkbox" name="3" value="3"> SUN
-</form>
-
-
+        <h1><b>Time Options</b></h1>
+        <span>Time Ranges</span>
+        <input type="checkbox" name="1" value="1"> 1
+        <input type="checkbox" name="2" value="2" checked> 2
+        <input type="checkbox" name="3" value="3">3 <br>
+        <input type="range" min="8:00" max="21:00" value="" class="slider" id="myRange">
+        <!-- <p>8:00am 21:00pm</p> -->
+        <p>Days</p>
+        <form class="days" action="index.html" method="post">
+          <input type="checkbox" name="1" value="1"> MON
+          <input type="checkbox" name="2" value="2"> TUE
+          <input type="checkbox" name="3" value="3"> WED
+          <input type="checkbox" name="1" value="1"> THU
+          <input type="checkbox" name="2" value="2"> FRI
+          <input type="checkbox" name="3" value="3"> SAT
+          <input type="checkbox" name="3" value="3"> SUN
+        </form>
       </section>
 
-      <section class="additional options">
+      <section class="additional Options">
+        <h1><b>Additional Options</b></h1>
         <select>
-  <option value="Any Campus">Any Campus</option>
+          <option value="Any Campus">Any Campus</option>
 
-</select><br>
-<select>
+        </select><br>
+        <select>
 
-<option value="Any Location">Any Location</option>
-<option value="Any Acad Career">Any Acad Career</option>
+        <option value="Any Location">Any Location</option>
+        <option value="Any Acad Career">Any Acad Career</option>
 
-</select><br>
-  <select>
-<option value="Any Acad Career">Any Acad Career</option>
-</select>
+        </select><br>
+        <select>
+        <option value="Any Acad Career">Any Acad Career</option>
+        </select>
       </section>
     </article>
 
 
 
 
-   <aside class="side">
-     <p>File in the form on the left</p>
+
+    <aside class="side">
+
+        <p>File in the form on the left</p>
+
     </aside>
     <!-- <footer class="footer"></footer> -->
     <!-- <div class="ad">Advertising</div> -->
