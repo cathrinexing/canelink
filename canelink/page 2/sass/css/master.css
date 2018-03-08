@@ -24,17 +24,11 @@
 .side p {
   margin: 0; }
 
-.ad {
-  grid-area: ad; }
-
-.main-footer {
-  grid-area: footer; }
-
 /* Mobile Layout */
 .main-nav {
   display: none; }
 
-.side {
+.content {
   display: none; }
 
 .wrapper {
@@ -56,12 +50,12 @@
     flex-direction: column; } }
 /* Desktop layout */
 @media (min-width: 768px) {
-  .side {
+  .content {
     display: block; }
 
   .wrapper {
     grid-template-columns: 3fr 5fr 5fr;
-    grid-template-areas: "nav  content  sidebar" "nav    content  sidebar"; }
+    grid-template-areas: "nav  header  header" "nav    content  sidebar"; }
 
   nav ul {
     flex-direction: column; } }
