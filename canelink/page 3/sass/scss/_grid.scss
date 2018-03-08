@@ -30,15 +30,14 @@ grid-area: header;
 .side p {
   margin: 0;
 }
-.ad {
-  grid-area: ad;
+
+
+.main{
+  grid-area: main;
 }
-.main-footer {
-  grid-area: footer;
-}
+
 
 /* Mobile Layout */
-
 .main-nav{
   display: none;
 }
@@ -52,7 +51,7 @@ grid-area: header;
   grid-gap: 0px;
   grid-template-areas:
     "header"
-    "content"
+    "main"
 }
 
 
@@ -69,7 +68,8 @@ grid-area: header;
     grid-template-columns: 4fr 6fr;
     grid-template-areas:
       "nav  header"
-      "nav content"
+      "nav sidebar"
+      "main main"
 
   }
   // nav ul {
@@ -93,7 +93,8 @@ grid-area: header;
     grid-template-columns:3fr 5fr 5fr ;
     grid-template-areas:
       "nav header  header "
-      "nav    content  sidebar"
+      "nav   content  sidebar"
+        "main mian mian"
 
    }
    nav ul {
