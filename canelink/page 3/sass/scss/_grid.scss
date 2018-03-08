@@ -14,17 +14,20 @@ grid-area: header;
 .content {
    padding: 10px;
   grid-area: content;
+  display:none;
 }
 .main-nav {
   font-size: 16px;
   line-height: 30px;
   grid-area: nav;
   padding: 10px;
+  display: none;
 
 }
 .side {
    padding: 10px;
   grid-area: sidebar;
+  display: none;
 }
 
 .side p {
@@ -34,16 +37,13 @@ grid-area: header;
 
 .main{
   grid-area: main;
+   padding: 10px;
+
 }
 
 
 /* Mobile Layout */
-.main-nav{
-  display: none;
-}
-.side{
-  display:none;
-}
+
 
 .wrapper {
   display: grid;
@@ -58,10 +58,13 @@ grid-area: header;
 /* tablet layout */
 
 @media (min-width: 500px) {
+
   .main-nav{
     display:block;
   }
-
+.side{
+  display: block;
+}
 
 
   .wrapper {
@@ -88,7 +91,9 @@ grid-area: header;
   .side{
     display:block;
   }
-
+.content{
+  display: block;
+}
   .wrapper {
     grid-template-columns:3fr 5fr 5fr ;
     grid-template-areas:
