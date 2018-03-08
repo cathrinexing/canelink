@@ -44,7 +44,7 @@
 
   .wrapper {
     grid-template-columns: 4fr 6fr;
-    grid-template-areas: "nav  header" "nav siderbar"; }
+    grid-template-areas: "nav  header" "nav sidebar"; }
 
   nav ul {
     flex-direction: column; } }
