@@ -85,6 +85,16 @@
 .content {
   border: 1px solid #95A1AA; }
 
+.content1 {
+  display: inline-block; }
+
+.content2 {
+  display: flex;
+  justify-content: center; }
+
+.days {
+  font-size: 10px; }
+
 .logo {
   margin: 0; }
 

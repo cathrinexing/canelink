@@ -36,46 +36,67 @@
 
     <article class="content">
       <section class="course options">
-        <p><b>Course Options</b></p>
+        <h1><b>Course Options</b></h1>
+        <div class="content1">
+          <p>*Term</p>
+          <select>
+            <option value="Spring 2018">Spring 2018</option>
+            <option value="Summer 2018">Summer 2018</option>
+            <option value="Fall 2019">Fall 2019</option>
+            </select>
+        </div>
 
-        <p>*Term</p>
-        <select>
-          <option value="Spring 2018">Spring 2018</option>
-          <option value="Summer 2018">Summer 2018</option>
-          <option value="Fall 2019">Fall 2019</option>
-          </select>
+        <div class="content1">
+          <p>Key words</p>
+          <input type="text" name="key words" value="Front-end">
+        </div>
 
 
-        <p>Key words</p>
-        <input type="text" name="key words" value="">
-        <p>*Subject</p>
-        <select>
+        <div class="">
+          <p>*Subject</p>
+          <select>
+          <option value="Select or Type">Select or Type</option>
+          <option value="Select or Type">Interactive media design</option>
+          <option value="Select or Type">Advertising</option>
           <option value="Select or Type">Select or Type</option>
           </select>
+        </div>
+
+        <div class="content1">
+          <p>Course#</p>
+          <input type="text" name="couse" value="">
+        </div>
+
+        <div class="content1">
+          <p>Instructor</p>
+          <input type="text" name="Instructor" value="">
+        </div>
 
 
-        <p>Course# Instructor</p>
-        <input type="text" name="couse" value="">
-        <input type="text" name="Instructor" value=""><br>
-        <input type="radio" name="class" value="open classes" checked> Open classes
-        <button type="button">Search</button>
-        <button type="button">Reset</button>
+        <div class="">
+          <input type="radio" name="class" value="open classes" checked> Open classes
+        </div>
+        <div class="content2">
+          <button type="button">Search</button>
+          <button type="button">Reset</button>
+        </div>
+
 
       </section>
 
 
       <section class="time options">
+          <h1><b>Time Options</b></h1>
         <span>Time Ranges</span>
         <input type="checkbox" name="1" value="1"> 1
         <input type="checkbox" name="2" value="2" checked> 2
         <input type="checkbox" name="3" value="3">3 <br>
-
-
         <input type="range" min="8:00" max="21:00" value="" class="slider" id="myRange">
-        <p>8:00am 21:00pm</p>
+        <!-- <p>8:00am 21:00pm</p> -->
+        <p>Days</p>
         <form class="days" action="index.html" method="post">
           <input type="checkbox" name="1" value="1"> MON
-          <input type="checkbox" name="2" value="2"> Tue
+          <input type="checkbox" name="2" value="2"> TUE
           <input type="checkbox" name="3" value="3"> WED
           <input type="checkbox" name="1" value="1"> THU
           <input type="checkbox" name="2" value="2"> FRI
@@ -84,7 +105,8 @@
         </form>
       </section>
 
-      <section class="additional options">
+      <section class="additional Options">
+          <h1><b>Additional Options</b></h1>
         <select>
           <option value="Any Campus">Any Campus</option>
 
