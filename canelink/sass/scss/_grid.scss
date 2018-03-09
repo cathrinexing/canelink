@@ -12,36 +12,34 @@ grid-area: header;
 
 
 }
-.main-head b{
-  display: flex;
-  justify-content: center;
 
-
-}
 
 
 .content {
    padding: 10px;
   grid-area: content;
   display:none;
+    border: 1px solid #95A1AA;
 }
+
 .main-nav {
   font-size: 16px;
   line-height: 30px;
   grid-area: nav;
   padding: 10px;
   display: none;
+  border: 1px solid #95A1AA;
+  background-color:#95A1AA;
+color: white;
 
 }
 .side {
    padding: 10px;
   grid-area: sidebar;
   display: none;
+    border: 1px solid #95A1AA;
 }
 
-.side p {
-  margin: 0;
-}
 
 
 .main{
