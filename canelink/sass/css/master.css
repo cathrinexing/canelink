@@ -1,11 +1,13 @@
 .main-head {
   grid-area: header;
-  padding: 10px;
   background: #54AB88;
-  justify-content: center;
   display: flex;
   font-size: 25px;
   align-items: center; }
+
+.main-head b {
+  display: flex;
+  justify-content: center; }
 
 .content {
   padding: 10px;
@@ -130,11 +132,19 @@
 .logo1 {
   max-width: 100%; }
 
-.logo2 {
-  padding-right: 20px; }
+.menu img {
+  display: flex;
+  padding: 10px; }
+
+.menu {
+  display: flex;
+  align-items: center; }
 
 .public {
   border-bottom: 1px solid black; }
+
+.menu {
+  background-color: #F27321; }
 
 .line {
   border-bottom: 1px solid #95A1AA; }

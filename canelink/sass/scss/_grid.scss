@@ -3,13 +3,22 @@
 
 .main-head {
 grid-area: header;
-   padding: 10px;
+
   background: #54AB88;
-  justify-content: center;
+  // justify-content: center;
   display:flex;
   font-size: 25px;
   align-items: center;
+
+
 }
+.main-head b{
+  display: flex;
+  justify-content: center;
+
+
+}
+
 
 .content {
    padding: 10px;
