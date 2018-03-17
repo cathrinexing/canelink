@@ -98,14 +98,16 @@
       </section>
 
 
-      <section class="time options">
+      <section class="timeoptions">
         <h1><b>Time Options</b></h1>
         <p>Time Ranges</p>
         <input type="checkbox" name="1" value="1"> 1
         <input type="checkbox" name="2" value="2" checked> 2
-        <input type="checkbox" name="3" value="3">3 <br>
-        <input type="range" min="8:00" max="21:00" value="" class="slider" id="myRange">
-        <!-- <p>8:00am 21:00pm</p> -->
+        <input type="checkbox" name="3" value="3">3
+        <div class="slidercontainer">
+        <input type="range" min="8:00" max="21:00" value="50" class="slider" id="myRange">
+          </div>
+          <!-- <p>8:00am 21:00pm</p> -->
         <p>Days</p>
         <form class="days" action="index.html" method="post">
           <input type="checkbox" name="1" value="1">

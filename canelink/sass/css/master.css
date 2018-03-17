@@ -119,10 +119,30 @@
   margin-bottom: 10px; }
 
 .slider {
-  background-color: white;
-  height: 30px;
-  font-size: 12px;
-  min-width: 90%; }
+  background-color: #95A1AA;
+  height: 4px;
+  -webkit-appearance: none;
+  outline: none;
+  opacity: 0.7;
+  transition: opacity .2s;
+  width: 95%; }
+
+.slider:hover {
+  opacity: 1; }
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: #54AB88;
+  cursor: pointer; }
+
+.slider::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  background: #54AB88;
+  cursor: pointer; }
 
 .main-head {
   display: grid;
@@ -196,7 +216,8 @@ h1 {
 .content3 p,
 .content1 p,
 .content4 p,
-.openclasses {
+.openclasses,
+.timeoptions p {
   margin-top: 10px;
   margin-bottom: 3px; }
 
