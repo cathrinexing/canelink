@@ -99,6 +99,13 @@
 
   nav ul {
     flex-direction: column; } }
+/* .button{
+  display: grid;
+  justify-content:space-between;
+} */
+.button1 {
+  margin-top: 5px; }
+
 .buttons {
   background-color: #F27321;
   height: 30px;
@@ -111,9 +118,25 @@
   font-size: 15px;
   width: 100px; }
 
+.buttonm {
+  background-color: #95A1AA;
+  height: 30px;
+  font-size: 15px;
+  width: 110px; }
+
+.buttona {
+  background-color: #F27321;
+  height: 30px;
+  font-size: 15px;
+  width: 110px; }
+
 .checkbox {
-  width: 30px;
-  height: 30px; }
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 .additionalselect {
   background-color: white;
@@ -236,9 +259,9 @@ h1 {
   margin-bottom: 3px;
 } */
 .days {
-  font-size: 10px;
+  font-size: 12px;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-around; }
 
 .logo {
   margin: 0; }
@@ -264,8 +287,13 @@ h1 {
 .line1 {
   border-bottom: 1px solid #95A1AA; }
 
+.wait {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
 .pad {
-  padding-left: 50px; }
+  display: flex;
+  justify-content: flex-end; }
 
 .pop {
   padding: 10px; }

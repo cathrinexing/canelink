@@ -104,8 +104,8 @@
             <p>Time Ranges</p>
             <div class="check3">
               <input type="checkbox" name="1" value="1" checked> 1
-              <input type="checkbox" name="2" value="2" > 2
-              <input type="checkbox" name="3" value="3" >3
+              <input type="checkbox" name="2" value="2"> 2
+              <input type="checkbox" name="3" value="3"> 3
             </div>
         </div>
 
@@ -118,13 +118,13 @@
           <!-- <p>8:00am 21:00pm</p> -->
         <p>Days</p>
         <form class="days" action="index.html" method="post">
-          <input type="checkbox" name="1" value="1">
-          <input type="checkbox" name="2" value="2">
-          <input type="checkbox" name="3" value="3">
-          <input type="checkbox" name="1" value="1">
-          <input type="checkbox" name="2" value="2">
-          <input type="checkbox" name="3" value="3">
-          <input type="checkbox" name="3" value="3" >
+          <input type="checkbox" name="1" value="1" class="checkbox">
+          <input type="checkbox" name="2" value="2" class="checkbox">
+          <input type="checkbox" name="3" value="3" class="checkbox">
+          <input type="checkbox" name="1" value="1" class="checkbox">
+          <input type="checkbox" name="2" value="2" class="checkbox">
+          <input type="checkbox" name="3" value="3" class="checkbox">
+          <input type="checkbox" name="3" value="3" class="checkbox" >
         </form>
         <div class="days">
           <span>MON</span>
@@ -169,8 +169,11 @@
     <aside class="side">
       <section>
         <h1>CIM 621 - Narrative Production</h1>
-        <p class="line1">Section:7C-LEC(3544)</p>
-        <p class="line1">status: open <span class="pad">Wait list Total:3</span> </p>
+        <p class="line1 ">Section:7C-LEC(3544)</p>
+        <p class="line1 wait" >
+          <span>status: open </span>
+          <span class="pad">Wait list Total:3</span>
+        </p>
         <p class="line1 ">Units:3</p>
         <p class="line1">Session:Regular Academic</p>
         <p class="line1">Instruction Mode:In person</p>
@@ -178,9 +181,13 @@
         <p class="line1">Room: Wolfson 1008A </p>
         <p class="line1">Instructor: Edmund Talavera </p>
         <p class="line1">Dates: 01/16/2018 - 04/27/2018 </p>
-        <button type="button" name="button">Remove</button>
-        <button type="button" name="button">Add to Chart</button>
-      </section>
+        <div class="content2 button1">
+          <button class="buttonm" type="button" name="button">Remove</button>
+          <button class="buttona" type="button" name="button">Add to Chart</button>
+            </div>
+        </section>
+
+
       <section>
         <h1>CIM 622 - UX Research</h1>
         <p class="line1">
