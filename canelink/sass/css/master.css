@@ -111,12 +111,20 @@
   font-size: 15px;
   width: 100px; }
 
+.checkbox {
+  width: 30px;
+  height: 30px; }
+
 .additionalselect {
   background-color: white;
   height: 30px;
   font-size: 12px;
   min-width: 100%;
   margin-bottom: 10px; }
+
+.timeranges {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
 
 .slider {
   background-color: #95A1AA;
@@ -217,10 +225,15 @@ h1 {
 .content1 p,
 .content4 p,
 .openclasses,
-.timeoptions p {
+.timeoptions p,
+.check3 {
   margin-top: 10px;
   margin-bottom: 3px; }
 
+/* .timeranges{
+  margin-top:10px;
+  margin-bottom: 3px;
+} */
 .days {
   font-size: 10px;
   display: flex;
