@@ -20,6 +20,7 @@ grid-area: header;
   grid-area: content;
   display:none;
     border: 1px solid #95A1AA;
+
 }
 
 .main-nav {
@@ -130,13 +131,7 @@ color: white;
       "main main"
 
   }
-  // nav ul {
-  //   display: flex;
-  //   justify-content: space-between;
-  // }
-  nav ul {
-    flex-direction: column;
-  }
+
 }
 
 /* Desktop layout */

@@ -1,13 +1,15 @@
 .buttons {
-  background-color: green;
+  background-color:  #F27321;
   height: 30px;
   font-size: 15px;
+width: 100px;
 }
 
 .buttonr {
   background-color: #95A1AA;
   height: 30px;
   font-size: 15px;
+  width: 100px;
 }
 
 .additionalselect {
@@ -15,6 +17,7 @@
   height: 30px;
   font-size: 12px;
   min-width: 100%;
+  margin-bottom: 10px;
 }
 
 .slider {
@@ -23,11 +26,23 @@
   font-size: 12px;
   min-width: 90%;
 }
+.main-head  {
+  display: grid;
+  grid-template-columns: 50px auto;
 
+}
+
+.main-head .menu {
+  display: flex;
+  justify-content: flex-start;
+
+}
 .main-head b {
   display: flex;
   justify-content: center;
 }
+
+
 
 .side p {
   margin: 0;
@@ -42,6 +57,69 @@
   justify-content: space-around;
 }
 
+.content3{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+.term{
+  background-color: white;
+  min-width: 90%;
+border-radius: 5px;
+border-style: solid;
+border-color: rgb(166, 166, 166);
+border-width: 1px;
+font-size: 12px;
+padding: 0;
+height:25px;
+margin-right:  10px;
+}
+
+.keywords{
+  background-color: white;
+  min-width: 90%;
+border-radius: 5px;
+border-style: solid;
+border-color: rgb(166, 166, 166);
+border-width: 1px;
+font-size: 12px;
+  height:21px;
+}
+
+h1{
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+
+.additionalop h1{
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.button{
+  margin-top:20px;
+}
+
+.subject{
+  background-color: white;
+  min-width: 96%;
+border-radius: 5px;
+border-style: solid;
+border-color: rgb(166, 166, 166);
+border-width: 1px;
+font-size: 12px;
+  height:25px;
+}
+
+.content3  p,
+.content1 p,
+.content4 p,
+.openclasses,{
+
+margin-top:10px;
+margin-bottom: 3px;
+
+}
 .days {
   font-size: 10px;
   display: flex;
