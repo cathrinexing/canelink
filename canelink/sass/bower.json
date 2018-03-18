@@ -1,0 +1,20 @@
+{
+  "name": "classselection",
+  "homepage": "https://github.com/mike007jd/CIM795CATHERINE-MICHAEL",
+  "authors": [
+    "xing liu <31227004+cathrinexing@users.noreply.github.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "custombox": "^4.0.3"
+  }
+}
