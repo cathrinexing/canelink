@@ -310,12 +310,14 @@ h1 {
   align-items: center;
   justify-content: flex-start;
   background-color: #F27321;
-  width: 50px; }
+  width: 50px;
+  height: 100%; }
 
 .menu img {
   display: flex;
   padding: 10px;
-  background-color: #F27321; }
+  background-color: #F27321;
+  align-items: center; }
 
 .public {
   border-bottom: 1px solid black; }
