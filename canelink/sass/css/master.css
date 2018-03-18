@@ -306,11 +306,13 @@ h1 {
 .menu {
   display: flex;
   align-items: center;
-  background-color: #F27321; }
+  background-color: #F27321;
+  width: 50px; }
 
 .menu img {
   display: flex;
-  padding: 10px; }
+  padding: 10px;
+  background-color: #F27321; }
 
 .public {
   border-bottom: 1px solid black; }
