@@ -36,7 +36,7 @@
 .wrapper1 {
   display: grid;
   padding: 10px;
-  grid-gap: 0px;
+  grid-gap: 0;
   grid-template-areas: "header" "content"; }
   .wrapper1 .content {
     display: block; }
@@ -44,7 +44,7 @@
 .wrapper2 {
   display: grid;
   padding: 10px;
-  grid-gap: 0px;
+  grid-gap: 0;
   grid-template-areas: "header" "sidebar"; }
   .wrapper2 .side {
     display: block; }
@@ -52,7 +52,7 @@
 .wrapper3 {
   display: grid;
   padding: 10px;
-  grid-gap: 0px;
+  grid-gap: 0;
   grid-template-areas: "header" "main"; }
   .wrapper3 .main {
     display: block; }
@@ -64,18 +64,27 @@
 
   .wrapper1 {
     grid-template-columns: 4fr 6fr;
-    grid-template-areas: "nav  header" "nav content"; }
+    grid-template-areas: "nav header" "nav content"; }
 
   .wrapper2 {
     grid-template-columns: 4fr 6fr;
-    grid-template-areas: "nav  header" "nav sidebar"; }
+    grid-template-areas: "nav header" "nav sidebar"; }
     .wrapper2 .side {
       display: block; }
 
   .wrapper3 {
+    /*   .main{
+    
+        position: relative;
+        width: 12em;
+            grid-column: 2/3;
+              grid-row: 1/3;
+          } */
     grid-template-columns: 4fr 6fr;
-    grid-template-areas: "nav  header" "nav sidebar" "main main"; }
+    grid-template-areas: "nav header" "nav sidebar" "main main"; }
     .wrapper3 .side {
+      display: block; }
+    .wrapper3 .main {
       display: block; } }
 /* Desktop layout */
 @media (min-width: 768px) {
@@ -85,24 +94,36 @@
   .content {
     display: block; }
 
+  .main {
+    display: block; }
+
+  .main {
+    /*   width: 12em; */
+    grid-column: 2/3;
+    grid-row: 1/3; }
+
   .wrapper1 {
     grid-template-columns: 3fr 5fr 5fr;
-    grid-template-areas: "nav header  header " "nav   content  sidebar"; }
+    grid-template-areas: "nav header header " "nav content sidebar"; }
 
   .wrapper2 {
     grid-template-columns: 3fr 5fr 5fr;
-    grid-template-areas: "nav header  header " "nav   content  sidebar" "main mian mian"; }
+    grid-template-areas: "nav header header " "nav content sidebar"; }
 
   .wrapper3 {
     grid-template-columns: 3fr 5fr 5fr;
-    grid-template-areas: "nav header  header " "nav   content  sidebar" "main mian mian"; }
+    grid-template-areas: "nav header header " "nav content sidebar" "main main main"; }
 
-  nav ul {
-    flex-direction: column; } }
+  /*   nav ul {
+    flex-direction: column;
+  } */ }
 /* .button{
   display: grid;
   justify-content:space-between;
 } */
+h1 {
+  font-size: 20px; }
+
 .button1 {
   margin-top: 5px; }
 

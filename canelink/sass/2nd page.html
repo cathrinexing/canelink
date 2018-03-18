@@ -11,7 +11,13 @@
 
 <body>
   <div class="wrapper2">
-    <header class="main-head"><b>Class Search</b></header>
+    <header class="main-head">
+      <div class="menu">
+
+        <img src="img/menu.svg" alt="menu" width="30px">
+      </div>
+      <b>Class Search</b>
+    </header>
 
     <nav class="main-nav">
       <figure class="logo">
@@ -37,64 +43,101 @@
     <article class="content">
       <section class="course options">
         <h1><b>Course Options</b></h1>
-        <div class="content1">
-          <p>*Term</p>
-          <select>
+        <div class="content3">
+          <div class="content1">
+            <p>*Term</p>
+            <select class="term">
             <option value="Spring 2018">Spring 2018</option>
             <option value="Summer 2018">Summer 2018</option>
             <option value="Fall 2019">Fall 2019</option>
             </select>
+          </div>
+
+          <div class="content1">
+            <p>Key words</p>
+            <input class="keywords" type="text" name="key words" value="">
+          </div>
         </div>
 
-        <div class="content1">
-          <p>Key words</p>
-          <input type="text" name="key words" value="Front-end">
-        </div>
-
-
-        <div class="">
+        <div class="content4">
           <p>*Subject</p>
-          <select>
+          <select class="subject">
           <option value="Select or Type">Select or Type</option>
           <option value="Select or Type">Interactive media design</option>
           <option value="Select or Type">Advertising</option>
           <option value="Select or Type">Select or Type</option>
           </select>
         </div>
+        <div class="content3">
+          <div class="content1">
+            <p>Course#</p>
+            <input class="keywords" type="text" name="couse" value="">
+          </div>
 
-        <div class="content1">
-          <p>Course#</p>
-          <input type="text" name="couse" value="">
+          <div class="content1">
+            <p>Instructor</p>
+            <input class="keywords" type="text" name="Instructor" value="">
+          </div>
         </div>
 
-        <div class="content1">
-          <p>Instructor</p>
-          <input type="text" name="Instructor" value="">
-        </div>
 
 
-        <div class="">
-          <input type="radio" name="class" value="open classes" checked> Open classes
+
+
+
+        <div class="openclasses">
+          <input type="checkbox" name="class" value="open classes" checked> Open classes
         </div>
-        <div class="content2">
-          <button type="button">Search</button>
-          <button type="button">Reset</button>
+
+        <div class="content2 button">
+          <button class="buttons" type="button">Search</button>
+          <button class="buttonr" type="button">Reset</button>
         </div>
 
 
       </section>
 
 
-      <section class="time options">
+      <section class="timeoptions">
         <h1><b>Time Options</b></h1>
-        <span>Time Ranges</span>
-        <input type="checkbox" name="1" value="1"> 1
-        <input type="checkbox" name="2" value="2" checked> 2
-        <input type="checkbox" name="3" value="3">3 <br>
-        <input type="range" min="8:00" max="21:00" value="" class="slider" id="myRange">
+        <div class="timeranges">
+          <p>Time Ranges</p>
+          <div class="check3">
+            <input type="checkbox" name="1" value="1" checked> 1
+            <input type="checkbox" name="2" value="2"> 2
+            <input type="checkbox" name="3" value="3"> 3
+          </div>
+        </div>
+
+
+
+
+        <div class="slidercontainer">
+          <input type="range" min="8:00" max="21:00" value="50" class="slider" id="myRange">
+        </div>
         <!-- <p>8:00am 21:00pm</p> -->
         <p>Days</p>
         <form class="days" action="index.html" method="post">
+          <input type="checkbox" name="1" value="1" class="checkbox">
+          <input type="checkbox" name="2" value="2" class="checkbox">
+          <input type="checkbox" name="3" value="3" class="checkbox">
+          <input type="checkbox" name="1" value="1" class="checkbox">
+          <input type="checkbox" name="2" value="2" class="checkbox">
+          <input type="checkbox" name="3" value="3" class="checkbox">
+          <input type="checkbox" name="3" value="3" class="checkbox">
+        </form>
+        <div class="days">
+          <span>MON</span>
+          <span>TUE</span>
+          <span>WED</span>
+          <span>THU</span>
+          <span>FRI</span>
+          <span>SAT</span>
+          <span>SUN</span>
+
+        </div>
+
+        <!-- <form class="days" action="index.html" method="post">
           <input type="checkbox" name="1" value="1"> MON
           <input type="checkbox" name="2" value="2"> TUE
           <input type="checkbox" name="3" value="3"> WED
@@ -102,37 +145,35 @@
           <input type="checkbox" name="2" value="2"> FRI
           <input type="checkbox" name="3" value="3"> SAT
           <input type="checkbox" name="3" value="3"> SUN
-        </form>
+        </form> -->
       </section>
 
-      <section class="additional Options">
+      <section class="additionalop">
         <h1><b>Additional Options</b></h1>
-        <select>
+        <select class="additionalselect">
           <option value="Any Campus">Any Campus</option>
 
         </select><br>
-        <select>
+        <select class="additionalselect">
 
         <option value="Any Location">Any Location</option>
         <option value="Any Acad Career">Any Acad Career</option>
 
         </select><br>
-        <select>
+        <select class="additionalselect">
         <option value="Any Acad Career">Any Acad Career</option>
         </select>
       </section>
     </article>
 
-
-
-
-
     <aside class="side">
       <section>
         <h1>CIM 621 - Narrative Production</h1>
-        <p class="line1">Section:7C-LEC(3544)</p>
-        <span class="line2">status: open Wait list Total:3 </span>
-        <span class="line2"> Wait list Total:3 </span>
+        <p class="line1 ">Section:7C-LEC(3544)</p>
+        <p class="line1 wait">
+          <span>status: open </span>
+          <span class="pad">Wait list Total:0</span>
+        </p>
         <p class="line1 ">Units:3</p>
         <p class="line1">Session:Regular Academic</p>
         <p class="line1">Instruction Mode:In person</p>
@@ -140,14 +181,21 @@
         <p class="line1">Room: Wolfson 1008A </p>
         <p class="line1">Instructor: Edmund Talavera </p>
         <p class="line1">Dates: 01/16/2018 - 04/27/2018 </p>
-        <button type="button" name="button">Remove</button>
-        <button type="button" name="button">Add to Chart</button>
+        <div class="content2 button1">
+          <button class="buttonm" type="button" name="button">Remove</button>
+          <button class="buttonl" type="button" name="button">Learn More</button>
+        </div>
       </section>
+
+
       <section>
         <h1>CIM 622 - UX Research</h1>
         <p class="line1">
           Section:4C-LEC(3545)</p>
-        <p class="line1">status: open Wait list Total:0 </p>
+          <p class="line1 wait">
+            <span>status: open </span>
+            <span class="pad">Wait list Total:3</span>
+          </p>
         <p class="line1">Units:3</p>
         <p class="line1">Session:Regular Academic</p>
         <p class="line1">Instruction Mode:In person</p>
@@ -155,22 +203,29 @@
         <p class="line1">Room: Wolfson 4028 </p>
         <p class="line1">Instructor: Barbara Millet </p>
         <p class="line1">Dates: 01/16/2018 - 04/27/2018 </p>
-        <button type="button" name="button">Remove</button>
-        <button type="button" name="button">Add to Chart</button>
+        <div class="content2 button1">
+          <button class="buttonaw" type="button" name="button">Awaiting</button>
+          <button class="buttonl" type="button" name="button">Learn More</button>
+        </div>
       </section>
       <section>
         <h1> CIM 626 - Adaption</h1>
         <div class="line1">Section:Q-LEC (3631) </div>
-        <div class="line1"> status: open Wait list Total:0 </div>
-        <div class="line1" iv class="line1"> Units:3</div>
+        <p class="line1 wait">
+          <span>status: open </span>
+          <span class="pad">Wait list Total:0</span>
+        </p>
+        <div class="line1"> Units:3</div>
         <div class="line1">Session:Regular Academic</div>
         <div class="line1">Instruction Mode:In person</div>
         <div class="line1">Days/Times: Tu Th 12:30am - 1:45pm</div>
         <p class="line1">Room: Communication Intl 5063 </p>
         <p class="line1">Instructor: Barbara Leibell </p>
         <p class="line1">Dates: 01/16/2018 - 04/27/2018 </p>
-        <button type="button" name="button">Remove</button>
-        <button type="button" name="button">Add to Chart</button>
+        <div class="content2 button1">
+          <button class="buttona" type="button" name="button">Add to Chart</button>
+          <button class="buttonl" type="button" name="button">Learn More</button>
+        </div>
       </section>
     </aside>
     <!-- <footer class="footer"></footer> -->
