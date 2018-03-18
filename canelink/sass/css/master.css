@@ -112,6 +112,18 @@
   font-size: 15px;
   width: 100px; }
 
+.buttonl {
+  background-color: #7FC5C3;
+  height: 30px;
+  font-size: 15px;
+  width: 110px; }
+
+.buttonaw {
+  background-color: grey;
+  height: 30px;
+  font-size: 15px;
+  width: 110px; }
+
 .buttonr {
   background-color: #95A1AA;
   height: 30px;
@@ -142,8 +154,9 @@
   background-color: white;
   height: 30px;
   font-size: 12px;
-  min-width: 100%;
-  margin-bottom: 10px; }
+  min-width: 96%;
+  margin-bottom: 10px;
+  height: 30px; }
 
 .timeranges {
   display: grid;
@@ -299,6 +312,7 @@ h1 {
   padding: 10px; }
 
 .description {
+  margin-top: 15px;
   padding: 10px;
   border: 1px solid #95A1AA; }
 
