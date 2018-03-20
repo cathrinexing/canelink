@@ -124,6 +124,9 @@ margin-bottom: 0;
   display: grid;
   justify-content:space-between;
 } */
+h2 {
+  font-size: 20px; }
+
 .button1 {
   margin-top: 5px; }
 
