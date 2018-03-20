@@ -40,12 +40,18 @@ margin-bottom: 0;
 }
 
 .side {
-  padding: 10px;
+  padding: 0px;
   grid-area: sidebar;
   display: none;
   border: 1px solid #95A1AA;
 }
 
+.side1{
+  padding-top: 0;
+  padding-left:10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
 .main {
   grid-area: main;
   padding: 10px;
